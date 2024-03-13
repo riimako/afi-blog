@@ -1,3 +1,6 @@
+import Header from "../_components/header";
+
 export default function Page() {
-    return <h1>Hello, QUE ES EL AFI Page!</h1>
+    return (
+      <Header />)
   }

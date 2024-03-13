@@ -18,7 +18,7 @@ export default async function Post({ params }: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main>
+    <main className="min-h-screen flex">
       <Container>
         <Header />
         <article className="mb-32">

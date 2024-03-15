@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-subtitle {
+  background-image: linear-gradient(to bottom left, #953a1d, #e2ac30);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.gradient-header {
+  background: rgb(48, 97, 21);
+  background: linear-gradient(
+    146deg,
+    rgba(48, 97, 21, 1) 0%,
+    rgba(86, 139, 57, 1) 47%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.header {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.border-bt-green {
+  @media (max-width: 800px) {
+    border-bottom: 1px solid #568b39;
+  }
+}

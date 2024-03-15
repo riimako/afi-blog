@@ -3,8 +3,6 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "../../../lib/api";
 import { AFI_NAME } from "../../../lib/constants";
 import markdownToHtml from "../../../lib/markdownToHtml";
-import Container from "../../_components/container";
-import Header from "../../_components/header";
 import { PostBody } from "../../_components/post-body";
 import { PostHeader } from "../../_components/post-header";
 
@@ -18,19 +16,14 @@ export default async function Post({ params }: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main className="min-h-screen flex">
-      <Container>
-        <Header />
-        <article className="mb-32">
-          <PostHeader
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-          />
-          <PostBody content={content} />
-        </article>
-      </Container>
-    </main>
+    <article className="mb-32">
+      <PostHeader
+        title={post.title}
+        coverImage={post.coverImage}
+        date={post.date}
+      />
+      <PostBody content={content} />
+    </article>
   );
 }
 

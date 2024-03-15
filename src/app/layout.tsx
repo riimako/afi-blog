@@ -1,12 +1,14 @@
 import Footer from "@/app/_components/footer";
 import { AFI_NAME } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 
 import "./globals.css";
 import clsx from "clsx";
+import Container from "./_components/container";
+import HeaderNav from "./_components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const text = Nunito_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `${AFI_NAME}`,
@@ -21,12 +23,12 @@ export default function RootLayout({
   return (
     <html lang="ca-ES">
       <head>
-        <link
-          rel="icon"
-          type="image/jpeg"
-          href="/assets/img/smallLogo.jpg"
-        />
+        <link rel="icon" type="image/jpeg" href="/assets/img/smallLogo.jpg" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+          rel="stylesheet"
+        />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="msapplication-config"
@@ -35,9 +37,15 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={clsx(inter.className, '')}>
-          {children}
+      <body className={clsx(text.className, "")}>
+        <main className="min-h-screen flex">
+          <Container>
+            <HeaderNav />
+            {children}
+          </Container>
+        </main>
         <Footer />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
       </body>
     </html>
   );

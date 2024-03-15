@@ -1,4 +1,4 @@
-export const AFI_NAME = "AFI CEIP Gerbert d´Orlhac"
+export const AFI_NAME = "AFI Gerbert d´Orlhac";
 /**
  * 
 #568B39

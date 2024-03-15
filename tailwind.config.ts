@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
+    "./node_modules/flowbite-react/lib/**/*.js",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,8 +18,11 @@ const config: Config = {
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",
         "accent-7": "#333",
-        success: "#0070f3",
+        success: "#568B39",
         cyan: "#79FFE1",
+        green: "#568B39",
+        red: "#953A1D",
+        yellow: "#E2AC30",
       },
       spacing: {
         28: "7rem",
@@ -38,6 +42,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
 export default config;

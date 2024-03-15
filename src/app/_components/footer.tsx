@@ -16,7 +16,6 @@ export function Footer() {
             >
               Contacta'ns
             </a>
-           
           </div>
         </div>
       </Container>

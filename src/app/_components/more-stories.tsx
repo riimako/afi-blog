@@ -9,8 +9,8 @@ export function MoreStories({ posts }: Props) {
   return (
     <section>
       <div className="relative flex py-3 items-center">
-    <div className="flex-grow border-t border-gray-400"></div>
-</div>
+        <div className="flex-grow border-t border-gray-400"></div>
+      </div>
       <h2 className="mb-8 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
         Notícies
       </h2>

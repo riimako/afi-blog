@@ -1,17 +1,10 @@
-import Image from 'next/image'
-import Header from "../../_components/header";
+import Image from "next/image";
+import HeaderNav from "../../_components/navbar";
 
 export default function Page() {
   return (
     <main>
-    <Header />
-    
-    <Image
-      src={'/assets/img/organigrama.png'}
-      width={500}
-      height={500}
-      alt="Picture of the author"
-    />
+      <Image src={"/assets/img/organigrama.png"} alt="Organigrama de l'AFI" />
     </main>
-    )
-  }
+  );
+}

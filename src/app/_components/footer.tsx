@@ -9,6 +9,7 @@ export function Footer() {
           <h3 className="text-2xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             {AFI_NAME}
           </h3>
+          <h5>US ESPEREM, L'ESCOLA US ESPERA</h5>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href="mailto:afi.gerbert@gmail.com"

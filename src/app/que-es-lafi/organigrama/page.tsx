@@ -1,5 +1,4 @@
 import Image from "next/image";
-import HeaderNav from "../../_components/navbar";
 
 export default function Page() {
   return (

@@ -21,7 +21,7 @@ const TweetPage = async ({ id }: { id: string }) => {
 const Twitter = () => {
   return (
     <section className="flex mt-5 mb-5">
-      <div className="w-4/5">
+      <div className="mx-auto">
         <Suspense fallback={<TweetSkeleton />}>
           <TweetPage id={"1768612496481366120"} />
         </Suspense>

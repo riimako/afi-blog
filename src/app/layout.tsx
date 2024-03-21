@@ -38,7 +38,7 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body className={clsx(text.className, "")}>
-        <main className="min-h-screen flex">
+        <main className="flex">
           <Container>
             <HeaderNav />
             {children}

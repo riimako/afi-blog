@@ -23,20 +23,16 @@ export default function Index() {
           L'escola que estimem, l'escola que volem, l'escola que construïm...{" "}
           <b>JUNTS</b>
         </h2>
-        <p>
-          Com AFI tenim la tasca de continuar treballant i fent cada dia millor
-          la nostra escola. És per això que us demanem la vostra col·laboració
-          per construir junts aquest projecte que és el present i el futur dels
-          nostres infants.
-        </p>
-        <div className="flex flex-col md:flex-row ">
+        <div className="flex flex-col md:flex-row md:justify-around">
           <Card
             src="/assets/img/escuela.png"
-            text="Intervenim activament en la vida escolar del nostre centre. Som un membre més de la comunitat educativa."
+            text=" Com AFI tenim la tasca de continuar treballant i fent cada dia millor
+            la nostra escola. Intervenim activament en la vida escolar del nostre centre. Som un membre més de la comunitat educativa."
           />
           <Card
             src="/assets/img/mejora-continua.png"
-            text="Som persones que, de forma voluntària, treballem per millorar la nostre escola"
+            text="Som persones que, de forma voluntària, treballem per construir junts aquest projecte que és el present i el futur dels
+            nostres infants"
           />
           <Card
             src="/assets/img/mesa-redonda.png"

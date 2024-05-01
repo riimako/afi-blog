@@ -10,20 +10,15 @@ export default function Index() {
 
   return (
     <>
-      <Intro />
-      <section className="flex mt-5 mb-5">
-        <div className="w-4/5">una imagen potente del cole</div>
+      <section className="flex w-100 header">
+        <img src={"/assets/img/escola.jpg"} alt="Nostre escola" />
       </section>
-      <section className="flex mt-5 mb-5 flex-col">
+      <Intro />
+      <section className="flex mb-5 flex-col">
         <div className="relative flex py-3 items-center header">
           <div className="flex-grow border-t border-green"></div>
         </div>
-
-        <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
-          L'escola que estimem, l'escola que volem, l'escola que construïm...{" "}
-          <b>JUNTS</b>
-        </h2>
-        <div className="flex flex-col md:flex-row md:justify-around">
+        <div className="flex flex-col md:flex-row mt-5 md:justify-around">
           <Card
             src="/assets/img/escuela.png"
             text=" Com AFI tenim la tasca de continuar treballant i fent cada dia millor
@@ -43,11 +38,11 @@ export default function Index() {
           />
         </div>
       </section>
-      <section className="flex mt-5 mb-5 flex-col">
+      <section className="flex mb-5 flex-col">
         <div className="relative flex py-3 items-center header">
           <div className="flex-grow border-t border-green"></div>
         </div>
-        <div className="w-4/5">avantatges de ser socio</div>
+        <div className="w-4/5 mt-5">avantatges de ser socio</div>
 
         <Image
           src={"/assets/img/ejemploMotivos.png"}

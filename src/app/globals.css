@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body,footer {
+  background-color: #f4f9f1;
+  .container{
+    background-color: white;
+  }
+}
 .gradient-subtitle {
   background-image: linear-gradient(to bottom left, #953a1d, #e2ac30);
   color: transparent;
@@ -18,7 +23,9 @@
     rgba(255, 255, 255, 1) 100%
   );
 }
-
+nav.header {
+  background-color: #f4f9f1;
+}
 .header {
   margin-left: -20px;
   margin-right: -20px;

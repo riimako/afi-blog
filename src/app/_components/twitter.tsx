@@ -20,14 +20,15 @@ const TweetPage = async ({ id }: { id: string }) => {
 };
 const Twitter = () => {
   return (
-    <section className="flex mt-5 mb-5 flex-col lg:flex-row">
+    <div className="flex flex-col md:flex-row md:justify-around mt-8 items-center">
       <Suspense fallback={<TweetSkeleton />}>
-        <TweetPage id={"1785222132030447641"} />
+        <TweetPage id={"1786484602380415329"} />
         <TweetPage id={"1785221776303079712"} />
         <TweetPage id={"1785072111461011967"} />
-        <TweetPage id={"1768612496481366120"} />
+        {/* 
+        <TweetPage id={"1768612496481366120"} /> */}
       </Suspense>
-    </section>
+    </div>
   );
 };
 export default Twitter;

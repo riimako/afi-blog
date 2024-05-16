@@ -1,14 +1,14 @@
 import Footer from "@/app/_components/footer";
 import { AFI_NAME } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Nunito_Sans } from "next/font/google";
+import { Raleway } from "next/font/google";
 
 import "./globals.css";
 import clsx from "clsx";
 import Container from "./_components/container";
 import HeaderNav from "./_components/navbar";
 
-const text = Nunito_Sans({ subsets: ["latin"] });
+const text = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `${AFI_NAME}`,

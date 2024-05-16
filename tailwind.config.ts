@@ -23,6 +23,8 @@ const config: Config = {
         green: "#568B39",
         red: "#953A1D",
         yellow: "#E2AC30",
+        blue: "#0A3398",
+        background: "#f7f8ff",
       },
       spacing: {
         28: "7rem",

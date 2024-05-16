@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Button,
   CustomFlowbiteTheme,
   Navbar,
   NavbarBrand,
@@ -9,7 +8,6 @@ import {
   NavbarToggle,
 } from "flowbite-react";
 import { AFI_NAME } from "../../lib/constants";
-import Link from "next/link";
 
 const customTheme: CustomFlowbiteTheme["navbar"] = {
   root: {
@@ -35,14 +33,14 @@ const customTheme: CustomFlowbiteTheme["navbar"] = {
   },
   collapse: {
     base: "w-full md:block md:w-auto",
-    list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-xl",
+    list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-md md:text-xl",
     hidden: {
       on: "hidden",
       off: "",
     },
   },
   link: {
-    base: "block py-2 pr-4 pl-3 md:p-0",
+    base: "block py-2 pr-4 pl-3 md:p-0 md:text-lg",
     active: {
       on: "bg-green-700 text-white  md:bg-transparent md:text-green-700",
       off: "border-b border-gray-100  text-gray-700 hover:bg-gray-50  md:border-0 md:hover:bg-transparent md:hover:text-green-700",
@@ -61,10 +59,10 @@ const HeaderNav = () => {
           {AFI_NAME}
         </span>
       </NavbarBrand>
-      <div className="flex md:order-2">
+      <div className="flex order-2 md:hidden">
         <NavbarToggle />
       </div>
-      <NavbarCollapse>
+      <NavbarCollapse className="">
         <NavbarLink href="/que-es-lafi">Qué es l'AFI?</NavbarLink>
         <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink>
         <NavbarLink href="/comissions">Commissions</NavbarLink>

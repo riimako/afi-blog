@@ -45,7 +45,7 @@ export default function Index() {
             i en què estem treballant actualment:
           </p>
           <Link href="/que-es-lafi">
-            <Button color="yellow" className="">
+            <Button color="yellow" size="xl" className="">
               Obtén més informació aquí
               <svg
                 className="-mr-1 ml-2 h-4 w-4"

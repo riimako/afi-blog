@@ -25,8 +25,6 @@ const Twitter = () => {
         <TweetPage id={"1786484602380415329"} />
         <TweetPage id={"1785221776303079712"} />
         <TweetPage id={"1785072111461011967"} />
-        {/* 
-        <TweetPage id={"1768612496481366120"} /> */}
       </Suspense>
     </div>
   );

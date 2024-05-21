@@ -5,6 +5,11 @@ body,
 footer {
   background-color: #f7f8ff;
 }
+body {
+  & > main {
+    min-height: calc(100vh - 90px);
+  }
+}
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: #0a3398 !important;
@@ -61,12 +66,39 @@ nav.header {
   --tweet-bg-color-hover: white;
 }
 .organigrama {
-  img {
-    max-height: 80vh;
-    object-fit: contain;
+  .image-container {
+    img {
+      max-height: 80vh;
+      object-fit: contain;
+
+      @media (min-width: 800px) {
+        width: 45%;
+      }
+    }
   }
 }
 .out-container {
   margin-left: -20px;
   margin-right: -20px;
+}
+.actes-page {
+  iframe {
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+    max-height: 480px;
+    @media (min-width: 800px) {
+      min-height: 400px;
+    }
+  }
+}
+.estatuts-page {
+  iframe {
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+    @media (min-width: 800px) {
+      min-height: 480px;
+    }
+  }
 }

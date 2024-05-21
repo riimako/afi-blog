@@ -10,9 +10,6 @@ type Props = {
 
 export function PostPreview({ title, date, excerpt, slug }: Readonly<Props>) {
   return (
-    /* 
-    <div className="border-2 border-green rounded-xl p-2"> */
-
     <Card href={`/posts/${slug}`} className="hover:bg-white">
       <h3 className="text-xl leading-snug">{title}</h3>
       <div className="text-sm mb-1">

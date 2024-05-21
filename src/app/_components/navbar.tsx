@@ -59,7 +59,7 @@ const HeaderNav = () => {
           {AFI_NAME}
         </span>
       </NavbarBrand>
-      <div className="flex order-2 md:hidden">
+      <div className="flex md:hidden">
         <NavbarToggle />
       </div>
       <NavbarCollapse className="">

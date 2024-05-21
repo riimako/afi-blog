@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <section className="my-7 border-green">
+    <section className="my-7 border-green estatuts-page">
       <h2 className="mb-3 text-xl md:text-2xl tracking-tighter leading-tight">
         A continuació podeu visualitzar i accedir als actuals estatuts del
         nostre AFI.
@@ -10,7 +10,6 @@ export default function Page() {
         className="mb-3"
         title="Estatuts AFI"
         allow="autoplay"
-        height="480"
         src="https://drive.google.com/file/d/19LnFerX0V_D_2a0TLh1SQ36WBOsyWRNI/preview"
       ></iframe>
       <p>

@@ -10,7 +10,7 @@ export function Footer() {
           <h3 className="text-2xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-5 lg:mb-0 lg:pr-4 lg:w-1/2">
             {AFI_NAME}
           </h3>
-          <div className="flex items-center lg:w-1/2">
+          <div className="flex items-center flex-col  lg:w-1/2">
             <h5>US ESPEREM, L'ESCOLA US ESPERA</h5>
             <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4">
               <Button color="yellow" size="lg" className="font-bold">

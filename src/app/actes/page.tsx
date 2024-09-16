@@ -21,7 +21,11 @@ export default function Page() {
       </p>
       <Accordion className="mt-4 mb-3">
         <Accordion.Panel>
-          <Accordion.Title className="text-2xl">2023-2024</Accordion.Title>
+          <Accordion.Title className="text-2xl">2024-2025</Accordion.Title>
+          <Accordion.Content className=" bg-white"></Accordion.Content>
+        </Accordion.Panel>
+        <Accordion.Panel>
+          <Accordion.Title className="text-xl">2023-2024</Accordion.Title>
           <Accordion.Content className=" bg-white">
             <iframe
               allow="autoplay"

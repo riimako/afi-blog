@@ -66,7 +66,7 @@ const HeaderNav = () => {
         <NavbarLink href="/que-es-lafi">Qué es l'AFI?</NavbarLink>
         <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink>
         <NavbarLink href="/comissions">Commissions</NavbarLink>
-        <NavbarLink href="/newsletters">Newsletters</NavbarLink>
+        {/* <NavbarLink href="/newsletters">Newsletters</NavbarLink> */}
         <NavbarLink href="/agenda">Agenda</NavbarLink>
         <NavbarLink href="/actes">Actes</NavbarLink>
         <NavbarLink href="/estatut">Estatut</NavbarLink>

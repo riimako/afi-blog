@@ -20,7 +20,7 @@ export function ComissionCard({ title, excerpt, slug }: Readonly<Props>) {
     >
       <h3 className="text-xl leading-snug">{title}</h3>
       <p className="text-md leading-relaxed mb-1">{excerpt}</p>
-      <Button color="blue" className="font-bold">
+      {/* <Button color="blue" className="font-bold">
         Llegir més
         <svg
           className="-mr-1 ml-2 h-4 w-4"
@@ -34,7 +34,7 @@ export function ComissionCard({ title, excerpt, slug }: Readonly<Props>) {
             clipRule="evenodd"
           />
         </svg>
-      </Button>
+      </Button> */}
     </Card>
   );
 }

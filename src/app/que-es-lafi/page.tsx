@@ -1,87 +1,73 @@
+import { List } from "flowbite-react";
+
 export default function Page() {
   return (
-    <section>
-      <div>
-        Associació de famílies d'infants és una entitat que intervé activament
-        en la vida escolar del nostre centre, Gerbert d'Orlhac.
-      </div>
-      <p>
-        L'AFI realitza tasques d'organització, participació, representació i
-        formació. Representa a totes les famílies i fa de pont entre elles i
-        l'escola. Gestiona els diners de les persones associades i els inverteix
-        en activitats o material que beneficien a l'escola. L'AFI també fa un
-        seguiment i valora el funcionament del centre escolar, promou la
-        formació per a pares i mares amb xerrades d'interès educatiu i social,
-        té un representant dels pares i de les mares al Consell Escolar de
-        centre i també està representada a la Coordinadora d'AFAs de Sant Cugat
-        i al Consell Escolar Municipal.
-      </p>
-      <p>
+    <>
+      <section className="flex flex-col">
+        <h1 className="mb-1 text-lg md:text-xl md:m-2">
+          Associació de Famílies d'Infants
+        </h1>
+        <p>
+          Som una entitat que intervé activament en la vida escolar del centre
+          Gerbert d'Orlhac, realitzant tasques d'organització, participació,
+          representació i formació.
+        </p>
+        <p>
+          Representem totes les famílies i fa de pont entre elles i l'escola.
+          Gestiona els diners de les persones associades i els inverteix en
+          activitats o material que beneficien a l'escola.
+        </p>
+      </section>
 
-      Objectius
-Representar a les famílies de l’escola.
-Donar suport a l’escola, en la mida del possible, arribant on l’escola no pot arribar:
-Col·laboració en activitats educatives
-Inversions
-Promoure la participació de les famílies en les activitats de l’escola i en les activitats organitzades per l’AFI.
-Fomentar el sentiment de pertinença.
-Donar suport a les famílies, especialment aquelles que més ho poden necessitar.
-Coordinar i donar suport les activitats de les comissions:
-Les comissions han de seguir els objectius marcats per la Junta.
-Les comissions i la Junta han de treballar plegats.
+      <section className="flex flex-col">
+        <h2 className="mb-1 text-lg md:text-xl md:m-2">Objectius</h2>
+        <List>
+          <List.Item>Representar a les famílies de l’escola.</List.Item>
+          <List.Item>
+            Donar suport a l’escola arribant on aquesta no pot.
+          </List.Item>
+          <List.Item>
+            Promoure la participació de les famílies en activitats.
+          </List.Item>
+          <List.Item>Fomentar el sentiment de pertinença.</List.Item>
+          <List.Item>Donar suport a les famílies que ho necessitin.</List.Item>
+          <List.Item>Coordinar les activitats de les comissions.</List.Item>
+        </List>
+      </section>
 
-Funcions
-Treballar de la mà de l’escola, decisions consensuades.
-Transparència: amb l’escola, entre els membres de la junta i amb les famílies.
-Presa de decisions per votació.
-Proactivitat en la informació: fer seguiment i informar dels projectes i activitats.
-Fer partícip a les famílies.
-Ser receptius amb les queixes, comentaris, informacions rebudes per part de les famílies, tenint-les en compte per proposar/ realitzar millors i poder donar suggeriments a l’escola.
-Ser l’altaveu de l’escola en les activitats / projectes que es dueni no arriben a les famílies.
-Coordinar el xat de delegats.
-      </p>
-      <p>Hola famílies!
+      <section className="flex flex-col">
+        <h2 className="mb-1 text-lg md:text-xl md:m-2">Funcions</h2>
+        <List>
+          <List.Item>
+            Treballar de la mà de l’escola amb decisions consensuades.
+          </List.Item>
+          <List.Item>
+            Mantenir transparència amb l’escola i les famílies.
+          </List.Item>
+          <List.Item>Presa de decisions per votació.</List.Item>
+          <List.Item>
+            Proactivitat en la informació de projectes i activitats.
+          </List.Item>
+          <List.Item>Fer partícips a les famílies en les decisions.</List.Item>
+          <List.Item>
+            Ser receptius amb queixes i suggeriments de les famílies.
+          </List.Item>
+        </List>
+      </section>
 
-Comença un nou curs i amb aquest, com cada any, els nous reptes, objectius i il·lusions, però també la tasca de continuar treballant i fent cada dia millor la nostra escola. És per això que, des de l'AFI (I'Associació de Famílies d'Infants de l'escola) us demanem la vostra col·laboració per construir junts aquest projecte que és el present i el futur dels nostres infants.
-
-Necessitem mans, moltes mans... com més, millor. Tothom pot formar part de I'AFI i hi ha moltes maneres de fer-ho. Podeu entrar en una comissió, donar suport a activitats puntuals, involucrar-vos en la Junta... el que vulgueu o pugueu, però necessitem COMPROMÍS I AJUDA per part vostra, ja que està sent molt difícil tirar endavant sense suport de les mares i pares del Gerbert.
-
-Totes juntes podem construir l'escola que volem i lluitar perquè cada dia, els nostres nens i nenes tinguin una millor educació i en millors condicions.
-
-L'AFI ha donat molts passos endavant però, per continuar, US NECESSITEM. Aquests han estat alguns dels projectes que hem posat en marxa i costejat en el darrers anys:
-
-Les festes de benvinguda i de final de curs
-
-Els tendals del pati infantil
-
-La remodelació de la biblioteca
-
-La insonorització de l'aula de música
-
-Els ventiladors del sostre de totes les aules
-
-La millora de la ludoteca
-
-El porxo de l'hort que s'utilitza com a aula externa
-
-Les cuinetes d'exterior als patis d'Infantil i Primària
-
-Després del confinament, ronyoneres perquè els infants poguessin portar l'ampolla d'aigua, material de neteja, gel hidroalcohòlic...
-
-La compra i venta de samarretes i dessuadores de l'escola.
-
-Els tendals per donar ombra.
-
-La insonorització del menjador.
-
-Les hores del conte els dimecres per la tarda
-
-Hort
-
-Cuidem l'escola
-
-US ESPEREM, L'ESCOLA US ESPERA.
-</p>
-    </section>
+      <section className="flex flex-col ">
+        <h2 className="mb-1 text-lg md:text-xl md:m-2">
+          Alguns de nostres projectes
+        </h2>
+        <List>
+          <List.Item>
+            Participar conjuntament amb altres escolas al grup de treball per
+            "Ombres per les escoles".
+          </List.Item>
+          <List.Item>Organitzar els diferents festes de la escola.</List.Item>
+          <List.Item>Gestionar amb Paidos extraescolars i menjador</List.Item>
+        </List>
+      </section>
+    </>
   );
 }

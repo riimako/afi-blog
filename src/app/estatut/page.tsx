@@ -5,7 +5,6 @@ export default function Page() {
         A continuació podeu visualitzar i accedir als actuals estatuts del
         nostre AFI.
       </h2>
-
       <iframe
         className="mb-3"
         title="Estatuts AFI"

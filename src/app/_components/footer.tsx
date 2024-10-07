@@ -13,9 +13,13 @@ export function Footer() {
             <h5>US ESPEREM, L'ESCOLA US ESPERA</h5>
             <h6>
               Escriu-nos un email a{" "}
-              <a className='font-medium text-blue-600 dark:text-blue-500 hover:underline' href="mailto:junta@afi-gerbert.cat">junta@afi-gerbert.cat</a>
+              <a
+                className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                href="mailto:junta@afi-gerbert.cat"
+              >
+                junta@afi-gerbert.cat
+              </a>
             </h6>
-            
           </div>
         </div>
       </Container>

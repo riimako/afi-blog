@@ -10,15 +10,12 @@ export default function Page() {
         className="mb-3"
         title="Estatuts AFI"
         allow="autoplay"
-        src="https://drive.google.com/file/d/19LnFerX0V_D_2a0TLh1SQ36WBOsyWRNI/preview"
+        src="https://drive.google.com/file/d/1rA-IkLk4lepZV4k9UVhKyDzW7EgYp6ZX/preview"
       ></iframe>
       <p>
         Per a qualsevol consulta o dubte relacionat amb els estatuts, podeu
         posar-vos en contacte amb l'AFI
       </p>
-      {/* 
-<!--Propuesta de modificación-->
-<!--<iframe src="https://drive.google.com/file/d/1g3d3pluzlKS5Juq1Q_uLZP_VxeFXvPnd/preview" width="640" height="480" allow="autoplay"></iframe>--> */}
     </section>
   );
 }

@@ -12,5 +12,5 @@ Tots aquells que hagin pagat la quota del curs 23-24 tindran dret a votar o dele
 
 Aquest any, tenim dues candidatures presentades per a la nova junta. Podeu consultar les seves propostes i presentacions a continuació.
 
-[![Proposta 1](/assets/blog/proposta1.png)](https://drive.google.com/file/d/1maATO9RiDj_mKbM6wSnXtxfMoKNy8sw4/view?usp=sharing)  
+[![Proposta 1](/assets/blog/proposta1.png)](https://drive.google.com/file/d/1StqlZvyVTLF45BuTh7Im-2fowTDFUcL9/view?usp=sharing)  
 [![Proposta 2](/assets/blog/proposta2.png)](https://drive.google.com/file/d/1XwsRd9-uk_IfAoAbwPM8EUGrRXpMOWpT/view?usp=sharing)

@@ -1,5 +1,6 @@
 import Container from "@/app/_components/container";
 import { AFI_NAME } from "../../lib/constants";
+import { Button } from "flowbite-react";
 
 export function Footer() {
   return (
@@ -21,6 +22,20 @@ export function Footer() {
               </a>
             </h6>
           </div>
+          <Button
+            color="yellow"
+            size="sm"
+            href="https://www.iubenda.com/privacy-policy/73787200"
+          >
+            Política de Privacitat
+          </Button>
+          <Button
+            size="sm"
+            color="yellow"
+            href="https://www.iubenda.com/privacy-policy/73787200/cookie-policy"
+          >
+            Política de Cookies
+          </Button>
         </div>
       </Container>
     </footer>

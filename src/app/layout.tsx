@@ -58,14 +58,13 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      </head>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-37BXH0LR1K"
-      ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-37BXH0LR1K"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
@@ -73,8 +72,10 @@ export default function RootLayout({
                   page_path: window.location.pathname
                 });
               `,
-        }}
-      />
+          }}
+        />
+      </head>
+
       <body className={clsx(text.className, "")}>
         <main className="flex">
           <Container>

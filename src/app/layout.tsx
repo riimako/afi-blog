@@ -23,13 +23,28 @@ export default function RootLayout({
   return (
     <html lang="ca-ES">
       <head>
-      <script type="text/javascript">
-var _iub = _iub || [];
-_iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"lang":"es","storage":{"useSiteId":true}};
-</script>
-<script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3802489.js"></script>
-<script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
-<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                var _iub = _iub || [];
+      _iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"lang":"es","storage":{"useSiteId":true}};
+              `,
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="https://cs.iubenda.com/autoblocking/3802489.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//cdn.iubenda.com/cs/gpp/stub.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//cdn.iubenda.com/cs/iubenda_cs.js"
+          charSet="UTF-8"
+          async
+        ></script>
         <link rel="icon" type="image/jpeg" href="/assets/img/smallLogo.jpg" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
@@ -44,14 +59,22 @@ _iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"lang":"es","
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-37BXH0LR1K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-37BXH0LR1K');
-</script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-37BXH0LR1K"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-37BXH0LR1K', {
+                  page_path: window.location.pathname
+                });
+              `,
+        }}
+      />
       <body className={clsx(text.className, "")}>
         <main className="flex">
           <Container>

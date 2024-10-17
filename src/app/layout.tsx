@@ -26,8 +26,9 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-                var _iub = _iub || [];
-      _iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"lang":"es","storage":{"useSiteId":true}};
+               var _iub = _iub || [];
+_iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"storage":{"useSiteId":true}};
+_iub.csLangConfiguration = {"es":{"cookiePolicyId":73787200},"ca":{"cookiePolicyId":36803924}};
               `,
           }}
         />

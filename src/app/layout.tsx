@@ -7,6 +7,7 @@ import "./globals.css";
 import clsx from "clsx";
 import Container from "./_components/container";
 import HeaderNav from "./_components/navbar";
+import { useState, useEffect } from "react";
 
 const text = Raleway({ subsets: ["latin"] });
 
@@ -23,15 +24,15 @@ export default function RootLayout({
   return (
     <html lang="ca-ES">
       <head>
+        (
         <script
           dangerouslySetInnerHTML={{
-            __html: `
-               var _iub = _iub || [];
+            __html: `var _iub = _iub || [];
 _iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"storage":{"useSiteId":true}};
-_iub.csLangConfiguration = {"es":{"cookiePolicyId":73787200},"ca":{"cookiePolicyId":36803924}};
-              `,
+_iub.csLangConfiguration = {"es":{"cookiePolicyId":73787200},"ca":{"cookiePolicyId":36803924}};`,
           }}
         />
+        )
         <script
           type="text/javascript"
           src="https://cs.iubenda.com/autoblocking/3802489.js"

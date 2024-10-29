@@ -20,10 +20,16 @@ export default function Page() {
         afecten a tots. Gràcies per la vostra participació i suport continuat!
       </p>
       <Accordion className="mt-4 mb-3">
-        {/* <Accordion.Panel>
+        <Accordion.Panel>
           <Accordion.Title className="text-2xl">2024-2025</Accordion.Title>
-          <Accordion.Content className=" bg-white"></Accordion.Content>
-        </Accordion.Panel> */}
+          <Accordion.Content className=" bg-white">
+            <iframe
+              allow="autoplay"
+              src="https://drive.google.com/file/d/1_e2ZIh0KyG3aGi3Fo-29G8SoY1_BC9Vg/preview"
+              title="22 d'octubre 2024"
+            />
+          </Accordion.Content>
+        </Accordion.Panel>
         <Accordion.Panel>
           <Accordion.Title className="text-xl">2023-2024</Accordion.Title>
           <Accordion.Content className=" bg-white">

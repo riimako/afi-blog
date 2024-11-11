@@ -22,7 +22,7 @@ const Twitter = () => {
   return (
     <div className="flex flex-col md:flex-row md:justify-around mt-8 items-center">
       <Suspense fallback={<TweetSkeleton />}>
-        <TweetPage id={"1795182231566061863"} />
+        <TweetPage id={"1856001962124185611"} />
         <TweetPage id={"1786484602380415329"} />
         <TweetPage id={"1785221776303079712"} />
       </Suspense>

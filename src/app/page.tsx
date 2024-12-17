@@ -5,6 +5,7 @@ import Twitter from "./_components/twitter";
 import ReasonCard from "./_components/reason-card";
 import Link from "next/link";
 import { Button } from "flowbite-react";
+import { CarouselComponent } from "./_components/carousel";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -74,6 +75,7 @@ export default function Index() {
           alt=""
         />
       </section> */}
+      <CarouselComponent />
 
       <section className="bg-background  section">
         <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">

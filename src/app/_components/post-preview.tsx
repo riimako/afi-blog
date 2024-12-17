@@ -6,6 +6,7 @@ type Props = {
   date: string;
   excerpt: string;
   slug: string;
+  coverImage?: string;
 };
 
 export function PostPreview({ title, date, excerpt, slug }: Readonly<Props>) {

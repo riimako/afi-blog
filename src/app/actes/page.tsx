@@ -25,6 +25,11 @@ export default function Page() {
           <Accordion.Content className=" bg-white">
             <iframe
               allow="autoplay"
+              src="https://drive.google.com/file/d/1aamlBJCwUxOCzv33h3WOmgLfJtqfqKrk/preview"
+              title="28 de gener 2025"
+            />
+            <iframe
+              allow="autoplay"
               src="https://drive.google.com/file/d/1_e2ZIh0KyG3aGi3Fo-29G8SoY1_BC9Vg/preview"
               title="22 d'octubre 2024"
             />

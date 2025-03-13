@@ -55,7 +55,12 @@ const HeaderNav = () => {
   return (
     <Navbar className="header" theme={customTheme} fluid rounded>
       <NavbarBrand href="/">
-        <span className="self-center whitespace-nowrap text-3xl font-semibold">
+        <img
+          alt="nostre logo"
+          className='navbarLogo'
+          src="/assets/img/smallLogo.jpg"
+        />
+        <span className="navbarName self-center whitespace-nowrap text-3xl font-semibold">
           {AFI_NAME}
         </span>
       </NavbarBrand>
@@ -65,7 +70,7 @@ const HeaderNav = () => {
       <NavbarCollapse className="">
         <NavbarLink href="/que-es-lafi">Qué es l'AFI?</NavbarLink>
         <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink>
-       {/*  <NavbarLink href="/comissions">Comissions</NavbarLink> */}
+        {/*  <NavbarLink href="/comissions">Comissions</NavbarLink> */}
         {/* <NavbarLink href="/newsletters">Newsletters</NavbarLink> */}
         <NavbarLink href="/agenda">Agenda</NavbarLink>
         <NavbarLink href="/actes">Actes</NavbarLink>

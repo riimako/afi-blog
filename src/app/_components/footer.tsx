@@ -25,14 +25,14 @@ export function Footer() {
           <Button
             color="yellow"
             size="sm"
-            href="https://www.iubenda.com/privacy-policy/73787200"
+            href="/privacitat"
           >
             Política de Privacitat
           </Button>
           <Button
             size="sm"
             color="yellow"
-            href="https://www.iubenda.com/privacy-policy/73787200/cookie-policy"
+            href="/cookies"
           >
             Política de Cookies
           </Button>

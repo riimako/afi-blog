@@ -1,7 +1,6 @@
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "../lib/api";
-import Twitter from "./_components/twitter";
 import ReasonCard from "./_components/reason-card";
 import Link from "next/link";
 import { Button } from "flowbite-react";
@@ -82,7 +81,6 @@ export default function Index() {
           Últimes notícies
         </h2>
         {allPosts.length > 0 && <MoreStories posts={allPosts} />}
-        <Twitter />
       </section>
     </>
   );

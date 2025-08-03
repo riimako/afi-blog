@@ -43,7 +43,7 @@ const customTheme: CustomFlowbiteTheme["navbar"] = {
     base: "block py-2 pr-4 pl-3 md:p-0 md:text-lg",
     active: {
       on: "bg-green-700 text-white  md:bg-transparent md:text-green-700",
-      off: "border-b border-green text-gray-700 hover:bg-gray-50  md:border-0 md:hover:bg-transparent md:hover:text-green-700",
+      off: "border-b border-green text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-green-700",
     },
   },
   toggle: {
@@ -57,7 +57,7 @@ const HeaderNav = () => {
       <NavbarBrand href="/">
         <img
           alt="nostre logo"
-          className='navbarLogo'
+          className="navbarLogo"
           src="/assets/img/smallLogo.jpg"
         />
         <span className="navbarName self-center whitespace-nowrap text-3xl font-semibold">
@@ -76,8 +76,12 @@ const HeaderNav = () => {
         <NavbarLink href="/agenda">Agenda</NavbarLink>
         <NavbarLink href="/actes">Actes</NavbarLink>
         <NavbarLink href="/estatut">Estatut</NavbarLink>
-        <NavbarLink href="https://agora.xtec.cat/ceip-gerbert-d-orlhac/">L'escola</NavbarLink>
-        <NavbarLink href="https://paidos.fundesplai.org/escoles/escola-gerbert-dorlhac/">Paidos</NavbarLink>
+        <NavbarLink href="https://agora.xtec.cat/ceip-gerbert-d-orlhac/">
+          L'escola
+        </NavbarLink>
+        <NavbarLink href="https://paidos.fundesplai.org/escoles/escola-gerbert-dorlhac/">
+          Paidos
+        </NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

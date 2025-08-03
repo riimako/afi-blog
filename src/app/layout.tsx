@@ -25,7 +25,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-       {/*  <script
+        {/*  <script
           dangerouslySetInnerHTML={{
             __html: `
                var _iub = _iub || [];
@@ -88,6 +88,7 @@ _iub.csLangConfiguration = {"es":{"cookiePolicyId":73787200},"ca":{"cookiePolicy
         </main>
         <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
       </body>
     </html>
   );

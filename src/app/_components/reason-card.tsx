@@ -9,12 +9,13 @@ type CardProps = {
 
 const customTheme: CustomFlowbiteTheme["card"] = {
   img: {
-    base: "h-auto max-h-16 md:max-h-32 w-auto mt-2 object-contain",
+    base: "h-auto max-h-16 md:max-h-16 w-auto mt-2 object-contain",
     horizontal: {
       off: "rounded-t-lg",
     },
   },
   root: {
+    base:"min-h-[200px] flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col hover:bg-white max-w-sm max-h-80 items-center my-2 md:m-0",
     children: "flex h-full flex-col justify-center gap-2 md:px-6 px-1 py-1",
   },
 };

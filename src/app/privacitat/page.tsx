@@ -103,9 +103,7 @@ const PrivacitatPage: React.FC = () => {
         </List>
       </section>
       <section>
-        <h2
-          className="mb-1 text-lg md:text-xl md:m-2"
-        >
+        <h2 className="mb-1 text-lg md:text-xl md:m-2">
           Canvis en la Política de Privacitat
         </h2>
         <p>
@@ -119,7 +117,8 @@ const PrivacitatPage: React.FC = () => {
             href="mailto:soporte@afi-gerbert.cat"
           >
             soporte@afi-gerbert.cat
-          </a>.
+          </a>
+          .
         </p>
       </section>
       <p>Gràcies per confiar en {AFI_NAME}.</p>

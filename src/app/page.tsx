@@ -1,6 +1,6 @@
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
-import { getAllInstagramPosts, getAllPosts } from "../lib/api";
+import {  getAllPosts } from "../lib/api";
 import ReasonCard from "./_components/reason-card";
 import Link from "next/link";
 import { Button } from "flowbite-react";
@@ -9,7 +9,6 @@ import InstagramCarousel from "./_components/instagram";
 
 export default async function Index() {
   const allPosts = getAllPosts();
-  /* const instagramPosts = await getAllInstagramPosts(); */
 
   return (
     <>
@@ -21,7 +20,7 @@ export default async function Index() {
         <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
           Qué es l'AFI?
         </h2>
-        <div className="flex flex-col md:flex-row md:justify-around">
+        <div className="flex flex-col md:flex-row md:justify-around items-center gap-4">
           <ReasonCard
             src="/assets/img/escuela.png"
             text=" Com AFI tenim la tasca de continuar treballant i fent cada dia millor
@@ -41,13 +40,11 @@ export default async function Index() {
           />
         </div>
         <div className="mt-5 flex justify-center flex-col items-center">
+          <p className="md:text-xl md:w-2/3 mb-3">Vols saber-ne més?</p>
           <p className="md:text-xl md:w-2/3 mb-3">
-            Vols saber-ne més?
-          </p>
-          <p className="md:text-xl md:w-2/3 mb-3">
-            Fes clic en el següent enllaç per obtenir
-            informació detallada sobre tota la feina que hem realitzat fins ara
-            i en què estem treballant actualment:
+            Fes clic en el següent enllaç per obtenir informació detallada sobre
+            tota la feina que hem realitzat fins ara i en què estem treballant
+            actualment:
           </p>
           <Link href="/que-es-lafi">
             <Button color="yellow" size="xl" className="">
@@ -68,11 +65,11 @@ export default async function Index() {
           </Link>
         </div>
       </section>
+      <section className="bg-background  section">
+        <InstagramCarousel />
+      </section>
       <CarouselComponent />
 
-     {/*  <section className="bg-background  section">
-        <InstagramCarousel posts={instagramPosts} />
-      </section> */}
       <section className="bg-background  section">
         <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
           Últimes notícies

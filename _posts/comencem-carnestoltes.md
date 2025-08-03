@@ -10,7 +10,7 @@ Benvolgudes famílies,
 
 Aquest dia és especial perquè cau just enmig de dos festius, i som conscients que potser algunes famílies no hi seran. Per això, és essencial saber quantes persones hi participaran abans de començar els preparatius.
 
-Per unir-vos al grup de Carnaval, només heu de fer clic a aquest enllaç:  [Click aquì](https://chat.whatsapp.com/LtdkozIlvtuIaRF1Uxx7dv.). **Si us plau, uniu-vos només si teniu clar que podreu assistir.**
+Per unir-vos al grup de Carnaval, només heu de fer clic a aquest enllaç: [Click aquì](https://chat.whatsapp.com/LtdkozIlvtuIaRF1Uxx7dv.). **Si us plau, uniu-vos només si teniu clar que podreu assistir.**
 
 A principis de gener prendrem una decisió: si comptem amb prou participació, tirarem endavant amb la proposta; si no, guardarem la idea amb il·lusió per a l’any vinent.
 

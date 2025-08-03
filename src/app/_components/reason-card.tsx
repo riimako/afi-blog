@@ -9,7 +9,7 @@ type CardProps = {
 
 const customTheme: CustomFlowbiteTheme["card"] = {
   img: {
-    base: "max-h-16 md:max-h-32 w-fit mt-2",
+    base: "h-auto max-h-16 md:max-h-32 w-auto mt-2 object-contain",
     horizontal: {
       off: "rounded-t-lg",
     },
@@ -31,11 +31,6 @@ const ReasonCard = ({ src, text, title }: CardProps) => {
         <p className="text-gray-700 text-base">{text}</p>
       </div>
     </Card>
-    /* 
-    
-    <div className="max-w-sm max-h-80 rounded-lg overflow-hidden shadow-lg shadow-blue-500/50 flex flex-col items-center">
-     
-    </div> */
   );
 };
 

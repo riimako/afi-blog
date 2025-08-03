@@ -1,13 +1,15 @@
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
-import { getAllPosts } from "../lib/api";
+import { getAllInstagramPosts, getAllPosts } from "../lib/api";
 import ReasonCard from "./_components/reason-card";
 import Link from "next/link";
 import { Button } from "flowbite-react";
 import { CarouselComponent } from "./_components/carousel";
+import InstagramCarousel from "./_components/instagram";
 
-export default function Index() {
+export default async function Index() {
   const allPosts = getAllPosts();
+  /* const instagramPosts = await getAllInstagramPosts(); */
 
   return (
     <>
@@ -40,7 +42,10 @@ export default function Index() {
         </div>
         <div className="mt-5 flex justify-center flex-col items-center">
           <p className="md:text-xl md:w-2/3 mb-3">
-            Vols saber-ne més? Fes clic en el següent enllaç per obtenir
+            Vols saber-ne més?
+          </p>
+          <p className="md:text-xl md:w-2/3 mb-3">
+            Fes clic en el següent enllaç per obtenir
             informació detallada sobre tota la feina que hem realitzat fins ara
             i en què estem treballant actualment:
           </p>
@@ -63,19 +68,11 @@ export default function Index() {
           </Link>
         </div>
       </section>
-      {/* <section className="flex mb-5 flex-col">
-        
-        <div className="w-4/5 mt-5">avantatges de ser socio</div>
-
-        <Image
-          src={"/assets/img/ejemploMotivos.png"}
-          width={200}
-          height={200}
-          alt=""
-        />
-      </section> */}
       <CarouselComponent />
 
+     {/*  <section className="bg-background  section">
+        <InstagramCarousel posts={instagramPosts} />
+      </section> */}
       <section className="bg-background  section">
         <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
           Últimes notícies

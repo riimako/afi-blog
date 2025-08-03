@@ -2,6 +2,7 @@ import { Post } from "@/interfaces/post";
 import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
+import { InstagramPost } from "../app/_components/instagram";
 
 const postsDirectory = join(process.cwd(), "_posts");
 
@@ -25,4 +26,14 @@ export function getAllPosts(): Post[] {
     // sort posts by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
+}
+
+export async function getAllInstagramPosts(): Promise<InstagramPost[]> {
+  const res = await fetch(
+    `https://graph.instagram.com/${1752120062021719}/media?fields=id,caption,media_type,media_url,permalink,timestamp&access_token=${"918452b691765d761cfb02933457f45d"}`,
+  );
+  console.log({ res });
+  const data = await res.json();
+
+  return data.data;
 }

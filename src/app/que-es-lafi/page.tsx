@@ -19,7 +19,7 @@ export default function Page() {
         </p>
       </section>
 
-      <section className="flex flex-col">
+      <section className="flex flex-col mt-2">
         <h2 className="mb-1 text-lg md:text-xl md:m-2">Objectius</h2>
         <List>
           <List.Item>Representar a les famílies de l’escola.</List.Item>
@@ -35,7 +35,7 @@ export default function Page() {
         </List>
       </section>
 
-      <section className="flex flex-col">
+      <section className="flex flex-col mt-2">
         <h2 className="mb-1 text-lg md:text-xl md:m-2">Funcions</h2>
         <List>
           <List.Item>
@@ -55,7 +55,7 @@ export default function Page() {
         </List>
       </section>
 
-      <section className="flex flex-col ">
+      <section className="flex flex-col mt-2">
         <h2 className="mb-1 text-lg md:text-xl md:m-2">
           Alguns de nostres projectes
         </h2>

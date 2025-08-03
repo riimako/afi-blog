@@ -4,7 +4,7 @@ import { Button } from "flowbite-react";
 
 export function Footer() {
   return (
-    <footer className="border-t border-green">
+    <footer className="border-t border-green bg-white">
       <Container>
         <div className="py-5 flex flex-col lg:flex-row items-center">
           <h3 className="text-2xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-5 lg:mb-0 lg:pr-4 lg:w-1/2">

@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body,
-footer {
+body {
   background-color: #f7f8ff;
 }
 body {
@@ -38,9 +37,9 @@ body {
     rgba(255, 255, 255, 1) 100%
   );
 }
-nav.header {
+/* nav.header {
   background-color: #f7f8ff;
-}
+} */
 .header {
   margin-left: -20px;
   margin-right: -20px;

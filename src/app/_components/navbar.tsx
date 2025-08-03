@@ -33,7 +33,7 @@ const customTheme: CustomFlowbiteTheme["navbar"] = {
   },
   collapse: {
     base: "w-full md:block md:w-auto",
-    list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-md md:text-xl",
+    list: "mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-md md:text-xl border-t border-green md:border-t-0 md:border-transparent",
     hidden: {
       on: "hidden",
       off: "",
@@ -43,7 +43,7 @@ const customTheme: CustomFlowbiteTheme["navbar"] = {
     base: "block py-2 pr-4 pl-3 md:p-0 md:text-lg",
     active: {
       on: "bg-green-700 text-white  md:bg-transparent md:text-green-700",
-      off: "border-b border-gray-100  text-gray-700 hover:bg-gray-50  md:border-0 md:hover:bg-transparent md:hover:text-green-700",
+      off: "border-b border-green text-gray-700 hover:bg-gray-50  md:border-0 md:hover:bg-transparent md:hover:text-green-700",
     },
   },
   toggle: {
@@ -68,13 +68,16 @@ const HeaderNav = () => {
         <NavbarToggle />
       </div>
       <NavbarCollapse className="">
+        <NavbarLink href="/">Inici</NavbarLink>
         <NavbarLink href="/que-es-lafi">Qué es l'AFI?</NavbarLink>
-        <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink>
+        {/* <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink> */}
         {/*  <NavbarLink href="/comissions">Comissions</NavbarLink> */}
         {/* <NavbarLink href="/newsletters">Newsletters</NavbarLink> */}
         <NavbarLink href="/agenda">Agenda</NavbarLink>
         <NavbarLink href="/actes">Actes</NavbarLink>
         <NavbarLink href="/estatut">Estatut</NavbarLink>
+        <NavbarLink href="https://agora.xtec.cat/ceip-gerbert-d-orlhac/">L'escola</NavbarLink>
+        <NavbarLink href="https://paidos.fundesplai.org/escoles/escola-gerbert-dorlhac/">Paidos</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

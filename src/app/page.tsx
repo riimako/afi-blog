@@ -1,6 +1,6 @@
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
-import {  getAllPosts } from "../lib/api";
+import { getAllPosts } from "../lib/api";
 import ReasonCard from "./_components/reason-card";
 import Link from "next/link";
 import { Button } from "flowbite-react";

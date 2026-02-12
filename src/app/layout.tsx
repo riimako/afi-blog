@@ -25,29 +25,6 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/*  <script
-          dangerouslySetInnerHTML={{
-            __html: `
-               var _iub = _iub || [];
-_iub.csConfiguration = {"siteId":3802489,"cookiePolicyId":73787200,"storage":{"useSiteId":true}};
-_iub.csLangConfiguration = {"es":{"cookiePolicyId":73787200},"ca":{"cookiePolicyId":36803924}};
-              `,
-          }}
-        /> */}
-        {/* <script
-          type="text/javascript"
-          src="https://cs.iubenda.com/autoblocking/3802489.js"
-        ></script>
-        <script
-          type="text/javascript"
-          src="//cdn.iubenda.com/cs/gpp/stub.js"
-        ></script> */}
-        {/* <script
-          type="text/javascript"
-          src="//cdn.iubenda.com/cs/iubenda_cs.js"
-          charSet="UTF-8"
-          async
-        ></script> */}
         <link rel="icon" type="image/jpeg" href="/assets/img/smallLogo.jpg" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link

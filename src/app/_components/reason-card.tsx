@@ -1,5 +1,6 @@
 import React from "react";
-import { Card, CustomFlowbiteTheme } from "flowbite-react";
+import { Card } from "flowbite-react";
+import { CustomFlowbiteTheme } from "flowbite-react/types";
 
 type CardProps = {
   src: string;
@@ -9,7 +10,7 @@ type CardProps = {
 
 const customTheme: CustomFlowbiteTheme["card"] = {
   img: {
-    base: "h-auto max-h-16 md:max-h-16 w-auto mt-2 object-contain",
+    base: "h-auto max-w-xs mt-2 object-contain card-image",
     horizontal: {
       off: "rounded-t-lg",
     },
@@ -23,7 +24,7 @@ const customTheme: CustomFlowbiteTheme["card"] = {
 const ReasonCard = ({ src, text, title }: CardProps) => {
   return (
     <Card
-      className="hover:bg-white max-w-sm max-h-80 items-center my-2 md:m-0"
+      className="reason-card hover:bg-white max-w-sm max-h-80 items-center my-2 md:m-0"
       imgSrc={src}
       theme={customTheme}
     >

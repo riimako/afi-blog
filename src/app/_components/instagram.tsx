@@ -7,8 +7,10 @@ const InstagramCarousel = () => {
         Des del nostre Instagram
       </h2>
       <div className="max-w-4xl mx-auto p-4">
-
-        <div className="elfsight-app-566a3047-70db-4d47-9d0b-6fb7fa75f40a" data-elfsight-app-lazy></div>
+        <div
+          className="elfsight-app-566a3047-70db-4d47-9d0b-6fb7fa75f40a"
+          data-elfsight-app-lazy
+        ></div>
       </div>
     </div>
   );

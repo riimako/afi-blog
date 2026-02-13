@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  CustomFlowbiteTheme,
   Navbar,
   NavbarBrand,
   NavbarCollapse,
@@ -8,6 +7,7 @@ import {
   NavbarToggle,
 } from "flowbite-react";
 import { AFI_NAME } from "../../lib/constants";
+import { CustomFlowbiteTheme } from "flowbite-react/types";
 
 const customTheme: CustomFlowbiteTheme["navbar"] = {
   root: {
@@ -58,16 +58,13 @@ const HeaderNav = () => {
         <img
           alt="nostre logo"
           className="navbarLogo"
-          src="/assets/img/smallLogo.jpg"
+          src="/assets/img/logo-transparent.png"
         />
-        <span className="navbarName self-center whitespace-nowrap text-3xl font-semibold">
-          {AFI_NAME}
-        </span>
       </NavbarBrand>
-      <div className="flex md:hidden">
+      <div className="flex lg:hidden">
         <NavbarToggle />
       </div>
-      <NavbarCollapse className="">
+      <NavbarCollapse className="lg:block hidden">
         <NavbarLink href="/">Inici</NavbarLink>
         <NavbarLink href="/que-es-lafi">Qué es l'AFI?</NavbarLink>
         {/* <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink> */}

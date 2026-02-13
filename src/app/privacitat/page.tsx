@@ -1,6 +1,6 @@
 import React from "react";
 import { AFI_NAME } from "../../lib/constants";
-import { List } from "flowbite-react";
+import { List, ListItem } from "flowbite-react";
 
 const PrivacitatPage: React.FC = () => {
   return (
@@ -71,12 +71,12 @@ const PrivacitatPage: React.FC = () => {
           teniu dret a:
         </p>
         <List>
-          <List.Item>Accedir a les vostres dades personals.</List.Item>
-          <List.Item>
+          <ListItem>Accedir a les vostres dades personals.</ListItem>
+          <ListItem>
             Sol·licitar la rectificació o eliminació de les vostres dades.
-          </List.Item>
-          <List.Item>Oposar-vos al tractament de les vostres dades.</List.Item>
-          <List.Item>Revocar el consentiment en qualsevol moment.</List.Item>
+          </ListItem>
+          <ListItem>Oposar-vos al tractament de les vostres dades.</ListItem>
+          <ListItem>Revocar el consentiment en qualsevol moment.</ListItem>
         </List>
         <p>
           {" "}
@@ -88,18 +88,18 @@ const PrivacitatPage: React.FC = () => {
         <h2 className="mb-1 text-lg md:text-xl md:m-2">Condicions d'Ús</h2>
         <p>En utilitzar aquest lloc web, accepteu les següents condicions:</p>
         <List>
-          <List.Item>
+          <ListItem>
             El contingut del lloc web és per a ús informatiu i no constitueix
             assessorament professional.
-          </List.Item>
-          <List.Item>
+          </ListItem>
+          <ListItem>
             No ens fem responsables de danys o perjudicis derivats de l'ús del
             lloc web.
-          </List.Item>
-          <List.Item>
+          </ListItem>
+          <ListItem>
             Es prohibeix la còpia o distribució no autoritzada del contingut del
             lloc web.
-          </List.Item>
+          </ListItem>
         </List>
       </section>
       <section>

@@ -25,7 +25,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="icon" type="image/jpeg" href="/assets/img/smallLogo.jpg" />
+        <link rel="icon" type="image/jpeg" href="/assets/img/logo-transparent.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
@@ -37,23 +37,8 @@ export default function RootLayout({
           content="/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#000" />
-        <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-37BXH0LR1K"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-37BXH0LR1K', {
-                  page_path: window.location.pathname
-                });
-              `,
-          }}
-        />
+ 
+       
       </head>
 
       <body className={clsx(text.className, "")}>
@@ -65,7 +50,10 @@ export default function RootLayout({
         </main>
         <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <script
+          src="https://static.elfsight.com/platform/platform.js"
+          async
+        ></script>
       </body>
     </html>
   );

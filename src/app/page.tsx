@@ -20,7 +20,7 @@ export default async function Index() {
         <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
           Qué es l'AFI?
         </h2>
-        <div className="flex flex-col md:flex-row md:justify-around items-center gap-4">
+        <div className="reason-card-container flex flex-col md:flex-row md:justify-around items-center gap-4">
           <ReasonCard
             src="/assets/img/escuela.png"
             text=" Com AFI tenim la tasca de continuar treballant i fent cada dia millor
@@ -70,12 +70,7 @@ export default async function Index() {
       </section>
       <CarouselComponent />
 
-      <section className="bg-background  section">
-        <h2 className="mb-3 text-2xl md:text-4xl font-bold tracking-tighter leading-tight">
-          Últimes notícies
-        </h2>
-        {allPosts.length > 0 && <MoreStories posts={allPosts} />}
-      </section>
+      
     </>
   );
 }

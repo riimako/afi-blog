@@ -131,3 +131,13 @@ body {
     display: block;
   }
 }
+.card-image{
+  max-height: 80px;
+}
+.reason-card-container{
+  @media (min-width: 768px) {
+  max-height: 400px;
+  .reason-card{
+    height: 100%;
+  } }
+}

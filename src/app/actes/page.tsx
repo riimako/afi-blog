@@ -1,5 +1,10 @@
 "use client";
-import { Accordion } from "flowbite-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionPanel,
+  AccordionTitle,
+} from "flowbite-react";
 
 export default function Page() {
   return (
@@ -20,19 +25,20 @@ export default function Page() {
         afecten a tots.
       </p>
       <p>Gràcies per la vostra participació i suport continuat!</p>
-      <Accordion className="mt-4 mb-3"><Accordion.Panel>
-          <Accordion.Title className="text-xl">2025-2026</Accordion.Title>
-          <Accordion.Content className="bg-white">
+      <Accordion className="mt-4 mb-3">
+        <AccordionPanel>
+          <AccordionTitle className="text-xl">2025-2026</AccordionTitle>
+          <AccordionContent className="bg-white">
             <iframe
               allow="autoplay"
               src="https://drive.google.com/file/d/1w3m6816k6W1FHJT1kPYV0RCA08Ju9onL/preview"
               title="16 d'octubre 2026"
             />
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title className="text-xl">2024-2025</Accordion.Title>
-          <Accordion.Content className="bg-white">
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel>
+          <AccordionTitle className="text-xl">2024-2025</AccordionTitle>
+          <AccordionContent className="bg-white">
             <iframe
               allow="autoplay"
               src="https://drive.google.com/file/d/1DWX6qXnlbDElEIF6jbT6ag7nEFSv8G-k/preview"
@@ -48,11 +54,11 @@ export default function Page() {
               src="https://drive.google.com/file/d/1_e2ZIh0KyG3aGi3Fo-29G8SoY1_BC9Vg/preview"
               title="22 d'octubre 2024"
             />
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title className="text-xl">2023-2024</Accordion.Title>
-          <Accordion.Content className=" bg-white">
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel>
+          <AccordionTitle className="text-xl">2023-2024</AccordionTitle>
+          <AccordionContent className=" bg-white">
             <iframe
               allow="autoplay"
               src="https://drive.google.com/file/d/1MN1ydhh0oZL2jRheBuiqY_A-8pCrdlUb/preview"
@@ -73,11 +79,11 @@ export default function Page() {
               allow="autoplay"
               title="2 de novembre 2023"
             />
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title className="text-xl">2022-2023</Accordion.Title>
-          <Accordion.Content className=" bg-white">
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel>
+          <AccordionTitle className="text-xl">2022-2023</AccordionTitle>
+          <AccordionContent className=" bg-white">
             <iframe
               src="https://drive.google.com/file/d/1Oa-d6v3UFWpvPrOX44DDQZj2X9hdfqgB/preview"
               allow="autoplay"
@@ -88,11 +94,11 @@ export default function Page() {
               allow="autoplay"
               title="27 septembre 22 acta"
             />
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title className="text-xl">2021-2022</Accordion.Title>
-          <Accordion.Content className=" bg-white">
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel>
+          <AccordionTitle className="text-xl">2021-2022</AccordionTitle>
+          <AccordionContent className=" bg-white">
             <iframe
               src="https://drive.google.com/file/d/1wn3_NKURByEFl4mjijxhI3caAGFw3yPv/preview"
               allow="autoplay"
@@ -103,11 +109,11 @@ export default function Page() {
               allow="autoplay"
               title="acta 16 desembre 21"
             />
-          </Accordion.Content>
-        </Accordion.Panel>
-        <Accordion.Panel>
-          <Accordion.Title className="text-xl">2020-2021</Accordion.Title>
-          <Accordion.Content className=" bg-white">
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel>
+          <AccordionTitle className="text-xl">2020-2021</AccordionTitle>
+          <AccordionContent className=" bg-white">
             <iframe
               src="https://drive.google.com/file/d/19xZ5VIo21VedVI9Nbk0gB23PeetsfZuq/preview"
               allow="autoplay"
@@ -119,8 +125,8 @@ export default function Page() {
               allow="autoplay"
               title="7 de octubre 2020"
             />
-          </Accordion.Content>
-        </Accordion.Panel>
+          </AccordionContent>
+        </AccordionPanel>
       </Accordion>
     </div>
   );

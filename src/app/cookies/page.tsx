@@ -1,6 +1,6 @@
 import React from "react";
 import { AFI_NAME } from "../../lib/constants";
-import { List } from "flowbite-react";
+import { List, ListItem } from "flowbite-react";
 
 const Cookies: React.FC = () => {
   return (
@@ -31,21 +31,21 @@ const Cookies: React.FC = () => {
         </h2>
         <p>Al nostre lloc web utilitzem els següents tipus de cookies:</p>
         <List>
-          <List.Item>
+          <ListItem>
             Cookies tècniques: Són necessàries per al funcionament bàsic del
             lloc web i us permeten navegar i utilitzar les seves funcionalitats.
-          </List.Item>
-          <List.Item>
+          </ListItem>
+          <ListItem>
             Cookies d'anàlisi: Utilitzem Google Analytics per recopilar
             informació anònima sobre com els usuaris interactuen amb el nostre
             lloc web (per exemple, pàgines visitades, temps de permanència,
             etc.). Aquestes dades ens ajuden a millorar el nostre contingut i
             serveis.
-          </List.Item>
-          <List.Item>
+          </ListItem>
+          <ListItem>
             Cookies de preferències: Recorden les vostres eleccions (com
             l'idioma) per oferir-vos una experiència més personalitzada.
-          </List.Item>
+          </ListItem>
         </List>
       </section>
 
@@ -70,11 +70,11 @@ const Cookies: React.FC = () => {
         </h2>
         <p>Podeu configurar el vostre navegador per:</p>
         <List>
-          <List.Item>Acceptar o rebutjar totes les cookies.</List.Item>
-          <List.Item>
+          <ListItem>Acceptar o rebutjar totes les cookies.</ListItem>
+          <ListItem>
             Rebre una notificació quan s'instal·li una cookie.
-          </List.Item>
-          <List.Item>Eliminar les cookies existents.</List.Item>
+          </ListItem>
+          <ListItem>Eliminar les cookies existents.</ListItem>
         </List>
         <p>
           Tingueu en compte que, si desactiveu les cookies, algunes parts del

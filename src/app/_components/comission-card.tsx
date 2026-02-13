@@ -1,4 +1,5 @@
-import { Button, Card, CustomFlowbiteTheme } from "flowbite-react";
+import { Button, Card } from "flowbite-react";
+import { CustomFlowbiteTheme } from "flowbite-react/types";
 
 type Props = {
   title: string;

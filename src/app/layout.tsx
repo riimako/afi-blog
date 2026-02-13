@@ -25,7 +25,11 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="icon" type="image/jpeg" href="/assets/img/logo-transparent.png" />
+        <link
+          rel="icon"
+          type="image/jpeg"
+          href="/assets/img/logo-transparent.png"
+        />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
@@ -37,8 +41,6 @@ export default function RootLayout({
           content="/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#000" />
- 
-       
       </head>
 
       <body className={clsx(text.className, "")}>
@@ -50,10 +52,6 @@ export default function RootLayout({
         </main>
         <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-        <script
-          src="https://static.elfsight.com/platform/platform.js"
-          async
-        ></script>
       </body>
     </html>
   );

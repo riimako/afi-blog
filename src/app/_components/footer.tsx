@@ -22,12 +22,6 @@ export function Footer() {
               </a>
             </h6>
           </div>
-          <Button color="yellow" size="sm" href="/privacitat">
-            Política de Privacitat
-          </Button>
-          <Button size="sm" color="yellow" href="/cookies">
-            Política de Cookies
-          </Button>
         </div>
       </Container>
     </footer>

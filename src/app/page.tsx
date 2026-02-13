@@ -12,7 +12,7 @@ export default async function Index() {
 
   return (
     <>
-      <section className="flex w-100 header">
+      <section className="flex w-full header">
         <img src={"/assets/img/escola.jpg"} alt="Nostre escola" />
       </section>
       <Intro />
@@ -69,8 +69,6 @@ export default async function Index() {
         <InstagramCarousel />
       </section>
       <CarouselComponent />
-
-      
     </>
   );
 }

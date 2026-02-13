@@ -13,7 +13,7 @@ const customTheme: CustomFlowbiteTheme["navbar"] = {
   root: {
     base: "bg-white px-2 pb-2 pt-4 sm:px-4",
     rounded: {
-      on: "rounded",
+      on: "rounded-sm",
       off: "",
     },
     bordered: {
@@ -70,7 +70,7 @@ const HeaderNav = () => {
         {/* <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink> */}
         {/*  <NavbarLink href="/comissions">Comissions</NavbarLink> */}
         {/* <NavbarLink href="/newsletters">Newsletters</NavbarLink> */}
-        <NavbarLink href="/agenda">Agenda</NavbarLink>
+        {/* <NavbarLink href="/agenda">Agenda</NavbarLink> */}
         <NavbarLink href="/actes">Actes</NavbarLink>
         <NavbarLink href="/estatut">Estatut</NavbarLink>
         <NavbarLink href="https://agora.xtec.cat/ceip-gerbert-d-orlhac/">

@@ -35,6 +35,10 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
           rel="stylesheet"
         />
+        <script
+          src="https://static.elfsight.com/platform/platform.js"
+          async
+        ></script>
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="msapplication-config"

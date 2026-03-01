@@ -61,10 +61,8 @@ const HeaderNav = () => {
           src="/assets/img/logo-transparent.png"
         />
       </NavbarBrand>
-      <div className="flex lg:hidden">
-        <NavbarToggle />
-      </div>
-      <NavbarCollapse className="lg:block hidden">
+      <NavbarToggle className="lg:hidden" />
+      <NavbarCollapse>
         <NavbarLink href="/">Inici</NavbarLink>
         <NavbarLink href="/que-es-lafi">Qué es l'AFI?</NavbarLink>
         {/* <NavbarLink href="/que-es-lafi/organigrama">Organigrama</NavbarLink> */}
